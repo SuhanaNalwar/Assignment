@@ -1,0 +1,17 @@
+#Take two vauled as input from the user
+a=int(input("Enter the first value: "))
+b=int(input("Enter the second value: "))
+
+#Calculatr and print the floor divison result
+floor_division=a//b
+print("Floor division result:",floor_division)
+
+#Calculate and print a raised to the power of b
+Power=a**b
+print("Result of a power b:",Power)
+
+#Checking the two values are equal or not and print the result
+if(a==b):
+  print("Result is :True")
+else:
+  print("Result is :False")  
